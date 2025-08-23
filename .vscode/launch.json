@@ -1,0 +1,23 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "name": "Debug Linux",
+         "type": "cppdbg",
+         "request": "launch",
+         "program": "${workspaceFolder}/bin/${fileBasenameNoExtension}",
+         "cwd": "${workspaceFolder}",
+         "preLaunchTask": "build-linux",
+         "linux": true
+      },
+      {
+         "name": "Debug Windows",
+         "type": "cppdbg",
+         "request": "launch",
+         "program": "${workspaceFolder}\\bin\\${fileBasenameNoExtension}.exe",
+         "cwd": "${workspaceFolder}",
+         "preLaunchTask": "build-windows",
+         "windows": true
+      }
+   ]
+}
