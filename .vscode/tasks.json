@@ -15,7 +15,6 @@
             "cwd": "${workspaceFolder}"
          },
          "problemMatcher": ["$gcc"],
-         "linux": true,
          "group": {
             "kind": "build",
             "isDefault": true
@@ -36,7 +35,6 @@
             "cwd": "${workspaceFolder}"
          },
          "problemMatcher": ["$gcc"],
-         "windows": true,
          "group": {
             "kind": "build",
             "isDefault": true
